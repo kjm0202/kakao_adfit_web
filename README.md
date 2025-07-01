@@ -20,12 +20,16 @@ and the Flutter guide for
 
 ## 🚨 중요 사항
 
-> **⚠️ 이 패키지는 Flutter Web (HTML/CanvasKit)에서만 동작합니다.**
-> - **WebAssembly(WASM)에서는 작동하지 않습니다.** (원인 분석 중)
->   - 해당 패키지는 `package:web`을 사용 중으로 빌드 자체에는 문제가 없으나, WASM 빌드에서만 '연결을 거부했습니다.' 오류와 함께 빈 위젯이 나타나는 문제가 있습니다.
-> - Android, iOS 등 모바일 플랫폼에서는 빈 위젯이 표시됩니다. (의도됨)
->   - 모바일의 경우 `kakao_adfit` 패키지 사용을 고려해주세요.
-> - Flutter SDK 3.27.4 (HTML/CanvasKit) 및 3.32.5 (CanvasKit)에서 테스트 완료
+**⚠️ 이 패키지는 Flutter Web (HTML/CanvasKit)에서만 동작합니다.**
+- **WebAssembly(WASM)에서는 작동하지 않습니다.** (원인 분석 중)
+
+  - 해당 패키지는 `package:web`을 사용 중으로 WASM 빌드 자체에는 문제가 없으나,<br> WASM 빌드 실행시에만 '연결을 거부했습니다.' 오류와 함께 빈 위젯이 나타나는 문제가 있습니다.<br> CORS 체크를 비활성화해도 나타나는 것을 보아 다른 헤더의 문제로 추정되나 확인해보지 못했습니다. 
+
+- Android, iOS 등 모바일 플랫폼에서는 빈 위젯이 표시됩니다. (의도됨)
+
+  - 모바일의 경우 `kakao_adfit` 패키지 사용을 고려해주세요.
+
+- Flutter SDK 3.27.4 (HTML/CanvasKit) 및 3.32.5 (CanvasKit)에서 테스트 완료
 
 ## 📦 설치
 
