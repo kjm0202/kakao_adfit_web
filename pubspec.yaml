@@ -3,7 +3,9 @@ description: "Kakao Adfit banner widget for Flutter Web"
 version: 0.0.1
 homepage: https://github.com/kjm0202/
 repository: https://github.com/kjm0202/kakao_adfit_web
-funding: https://ko-fi.com/kjm199902
+funding:
+  - https://ko-fi.com/kjm199902
+  - https://qr.kakaopay.com/Ej7meg69V
 
 platforms:
   web:
