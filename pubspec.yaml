@@ -1,0 +1,24 @@
+name: kakao_adfit_web
+description: "Kakao Adfit banner widget for Flutter Web"
+version: 0.0.1
+homepage: https://github.com/kjm0202/
+repository: https://github.com/kjm0202/kakao_adfit_web
+funding: https://ko-fi.com/kjm199902
+
+platforms:
+  web:
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
