@@ -27,7 +27,7 @@ and the Flutter guide for
 
 - Android, iOS 등 모바일 플랫폼에서는 빈 위젯이 표시됩니다. (의도됨)
 
-  - 모바일의 경우 `kakao_adfit` 패키지 사용을 고려해주세요.
+  - 모바일의 경우 `flutter_adfit` 패키지 사용을 고려해주세요.
 
 - Flutter SDK 3.27.4 (HTML/CanvasKit) 및 3.32.5 (CanvasKit)에서 테스트 완료
 
